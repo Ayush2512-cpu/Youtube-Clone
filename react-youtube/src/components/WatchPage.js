@@ -9,6 +9,7 @@ import disLikeIcon from "../assets/dislike.svg";
 import shareIcon from "../assets/share.svg";
 import downloadIcon from "../assets/download.svg";
 import moreIcon from "../assets/more.svg";
+import CommentsContainer from './CommentsContainer';
 
 const WatchPage = () => {
   const [searchParams] = useSearchParams();
@@ -128,9 +129,9 @@ const WatchPage = () => {
               </div>
             </div>
           </div>
-          {/* <div className='p-2 m-2'>
+           <div className='p-2 m-2'>
                         <CommentsContainer />
-                    </div> */}
+                    </div>
         </div>
       </div>
       {/*   <div className='flex-grow-3'>

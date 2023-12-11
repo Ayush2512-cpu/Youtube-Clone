@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import { useNavigate } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import hamburger from "../assets/hamburger.png";
 import youtubeLogo from "../assets/youtube.svg";
 import userIcon from "../assets/userIcon.png";
@@ -14,7 +14,7 @@ const Header = () => {
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const searchCache = useSelector((store) => store.cache);
-  // const navigate = useNavigate();
+  // const navigate = useHistory();
   useEffect(() => {
     const timer = setTimeout(() => {
       if (searchCache[search]) {
