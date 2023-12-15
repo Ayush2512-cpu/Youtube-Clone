@@ -49,7 +49,7 @@ const Header = () => {
     // navigate("/results?search_query=" + encodeURI(event.target.innerText));
   };
   return (
-    <div className="grid grid-flow-col p-3 fixed w-full bg-white">
+    <div className="grid grid-flow-col p-3 fixed w-full bg-white z-[100]">
       <div className="flex col-span-1">
         <img
           className="h-8 cursor-pointer"

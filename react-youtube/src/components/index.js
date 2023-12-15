@@ -5,6 +5,7 @@ import Sidebar from "./Sidebar";
 import VideoContainer from "./VideoContainer";
 import ButtonList from "./ButtonList";
 import WatchPage from "./WatchPage";
+import LiveChat from "./LiveChat";
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   VideoContainer,
   ButtonList,
   WatchPage,
+  LiveChat,
 };
